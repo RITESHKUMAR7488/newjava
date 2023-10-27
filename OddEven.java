@@ -5,7 +5,7 @@ public class OddEven {
             System.out.println("a is even");
         }
         else{
-            System.out.println("a is odd");
+            System.out.println("a is  1 odd");
         }
     }
     

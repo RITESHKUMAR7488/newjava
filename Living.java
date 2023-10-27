@@ -1,7 +1,7 @@
-// abstract class Living {
-//     abstract void move();   
+abstract class Living {
+    abstract void move();   
     
-// }
+}
  class Animals extends Living{
     void move(){
         System.out.println("walk");
@@ -17,6 +17,7 @@
 class test{
     public static void main(String[] args) {    
         Bird b=new Bird();
+        
         b.move();
         Animals a=new Animals();
         a.move();
